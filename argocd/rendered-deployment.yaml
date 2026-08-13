@@ -2,11 +2,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test-application
-  namespace: apps
+  namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/hemedawadh/test-application.git
+    repoURL: https://github.com/HemedAwadh/test-application.git
     targetRevision: main
     path: helm
     helm:
