@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: ghcr.io/hemedawadh/test-application
   pullPolicy: IfNotPresent
-  tag: 0e974a6
+  tag: a3f0b5d
 
 service:
   type: ClusterIP
