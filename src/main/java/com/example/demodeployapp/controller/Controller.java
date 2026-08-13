@@ -10,9 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("api/v1")
-
 public class Controller {
-
     String message = "Hello, this is my first Deployed Application";
 
     @PostMapping("/hello")
