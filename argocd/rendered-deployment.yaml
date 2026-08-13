@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/HemedAwadh/test-application.git
+    repoURL: https://github.com/hemedawadh/test-application.git
     targetRevision: main
     path: helm
     helm:
