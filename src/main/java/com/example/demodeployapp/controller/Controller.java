@@ -11,10 +11,11 @@ import java.util.Map;
 @RestController
 @RequestMapping("api/v1")
 public class Controller {
-    String message = "Hello, this is my first Deployed Application";
 
+    String message = "Hello, this is my first Deployed Application";
     @PostMapping("/hello")
     public ResponseEntity<?> hello(){
         return new ResponseEntity<>(Map.of("message",message),HttpStatus.OK);
     }
+
 }
