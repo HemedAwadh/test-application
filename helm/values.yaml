@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: ghcr.io/HemedAwadh/test-application.
   pullPolicy: IfNotPresent
-  tag: 701063e
+  tag: eb17074
 
 service:
   type: ClusterIP
