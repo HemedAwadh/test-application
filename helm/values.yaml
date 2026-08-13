@@ -41,9 +41,9 @@ ingress:
 
 database:
   configMap:
-    name: "test-Application-db-config"
+    name: "test-application-db-config"
   secret:
-    name: "test-Application-db-secret"
+    name: "test-application-db-secret"
     usernameKey: username
     passwordKey: password
 
