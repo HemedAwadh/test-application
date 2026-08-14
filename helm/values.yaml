@@ -37,7 +37,7 @@ ingress:
   enabled: true
   baseDomain: test-application.local
   auth:
-    enabled: true
+    enabled: false
 
 database:
   configMap:
